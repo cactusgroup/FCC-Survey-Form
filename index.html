@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Survey</title>
+        <link rel="stylesheet" href="index.css" />
+    </head>
+    <body>
+        <!-- user story 1 -->
+        <h1 id="title">Take this survey</h1>
+        <!-- user story 2 -->
+        <p id="description">Tell us about you.</p>
+        <!-- user story 3 -->
+        <form id="survey-form" action="#">
+            <!-- user story 4, 10 (id on label), 11 (placeholder text) -->
+            <label id="name-label" for="name">Name</label>
+            <input id="name" type="text" placeholder="John Doe" />
+            <!-- user story 5 and 6 (validation), 10 (id on label),
+                 11 (placeholder text) -->
+            <label id="email-label" for="email">E-mail</label>
+            <input id="email" type="email" placeholder="john@example.com" />
+            <!-- user story 7 and (8, 9) (valication), 10 (id on label), 
+                 11 (placeholder text )-->
+            <label id="number-label" for="number">Pick a number between 6 and 13</label>
+            <input id="number" type="number" placeholder="7, for example" />
+            <!-- user story 12 -->
+            <label id="dropdown-label" for="dropdowm">Chooose one</label>
+            <select name="dropdown" id="dropdown">
+                <option value="fish">Fish</option>
+                <option value="cheese">Cheese</option>
+                <option value="noodles">Noodles</option>
+                <option value="peach">Peach</option>
+            </select>
+        </form>
+    </body>
+</html>
